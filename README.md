@@ -119,3 +119,6 @@ npm run dev
 - Frontend → http://localhost:5173
 - Backend  → http://localhost:5000
 
+## 📜 License
+This project is licensed under the [MIT License](./LICENSE).
+
