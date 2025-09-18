@@ -9,7 +9,6 @@ An advanced **AI-powered SaaS application** built with the **MERN stack**, integ
 - [🛠 Tech Stack](#-tech-stack)
 - [📂 Project Structure](#-project-structure)
 - [🔧 Installation & Setup](#-installation--setup)
-- [🔒 Authentication & Subscription Flow](#-authentication--subscription-flow)
 - [📸 Screenshots](#-screenshots)
 - [📜 License](#-license)
 
@@ -71,7 +70,7 @@ QuickAI/
 ```
 
 ---
-## Installation Guide
+## 🔧 Installation & Setup
 
 ### 1. Clone the repo
 ```bash
