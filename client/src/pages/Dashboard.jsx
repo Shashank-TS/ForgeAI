@@ -42,6 +42,10 @@ const Dashboard = () => {
     <div className='h-full overflow-y-scroll p-6'>
       <div className='flex justify-start gap-4 flex-wrap'>
 
+        <div>
+          <p className='text-red-600 text-sm sm:text-base'>You have a maximum of 3 credits to explore premium features such as image generation, background removal, and object removal. These limitations are in place because the demo relies on free-tier APIs.</p>
+        </div>
+
         {/* Total creation card */}
         <div className='flex justify-between items-center w-72 p-4 px-6 bg-white rounded-xl border border-gray-200'>
           <div className='text-slate-600'>

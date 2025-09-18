@@ -1,13 +1,17 @@
 import { Image, Sparkles } from 'lucide-react';
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import axios from 'axios';
 import { useAuth } from '@clerk/clerk-react';
 import toast from 'react-hot-toast';
+import { PremiumLimitContext } from '../limitContext/LimitContext';
 
 axios.defaults.baseURL = import.meta.env.VITE_BASE_URL;
 
 const GenerateImage = () => {
 
+  const {limit,setPremiumLimit} = useContext(PremiumLimitContext)
+  console.log(limit);
+  
   const imageStyle = [
         'Realistic', 'Ghibli style', 'Anime style', 'Cartoon style', 'Fantasy style', '3D style', 'Portrait style'
       ]
@@ -23,7 +27,15 @@ const GenerateImage = () => {
   const onSubmitHandler = async (e)=>{
       e.preventDefault();
       try {
+        // limit
+        if(limit >=3){
+          toast.error('You have a maximum of 3 credits to explore premium features such as image generation, background removal, and object removal. These limitations are in place because the demo relies on free-tier APIs.');
+          return
+        }
+        setPremiumLimit()
+
         setLoading(true);
+
         const prompt = `Generate an image of ${input} in ${selectedStyle}`
         const {data} = await axios.post('/api/ai/generate-image',{prompt,publish},{
           headers:{
