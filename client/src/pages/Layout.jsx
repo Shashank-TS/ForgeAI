@@ -14,7 +14,9 @@ const Layout = () => {
   return user ? (
     <div className='flex flex-col items-start justify-start h-screen'>
         <nav className='w-full px-8 min-h-14 flex items-center justify-between border-b border-gray-200'>
-          <img src={assets.logo} alt='logo' onClick={()=>navigate('/')} className='cursor-pointer w-32 sm:w-44'></img>
+          {/* <img src={assets.logo} alt='logo' onClick={()=>navigate('/')} className='cursor-pointer w-32 sm:w-44'></img> */}
+          <div onClick={()=>navigate("/")} className='flex justify-center items-center gap-1 cursor-pointer'><img className='w-7 sm:w-9 cursor-pointer' src={assets.favicon} alt='logo'/><span className='text-xl sm:text-3xl font-semibold text-primary'>Forge.ai</span></div>
+
           {
             sidebar ?
             <X onClick={()=>setSidebar(false)} className='w-6 h-6 text-gray-600 sm:hidden'/>
