@@ -1,4 +1,4 @@
-# 🤖 QuickAI SaaS Platform
+# 🤖 ForgeAI SaaS Platform
 
 An advanced **AI-powered SaaS application** built with the **MERN stack**, integrating **Clerk authentication** and **subscription-based access**. This platform allows users to generate **articles, blog titles, images, edit images, and get resume reviews** — with separate **Free** and **Premium plans**.
 
@@ -14,7 +14,7 @@ An advanced **AI-powered SaaS application** built with the **MERN stack**, integ
 
 
 ## 🚀 Live Demo
-🔗 [View Live App](https://quick-ai-saas-platform.vercel.app/)  
+🔗 [View Live App](https://forge-ai-saas-platform.vercel.app/)  
 
 
 ## ⚡ Features
@@ -50,7 +50,7 @@ An advanced **AI-powered SaaS application** built with the **MERN stack**, integ
 ## 📂 Project Structure
 
 ```md
-QuickAI/
+ForgeAI/
 │
 ├── server/          # Express + MongoDB backend
 │   ├── models/       # Mongoose schemas (User, Subscription, etc.)
@@ -74,7 +74,7 @@ QuickAI/
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/Shashank-TS/QuickAI.git
+git clone https://github.com/Shashank-TS/ForgeAI.git
 ```
 
 ### 2. Backend setup
