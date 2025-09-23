@@ -2,6 +2,17 @@
 
 An advanced **AI-powered SaaS application** built with the **MERN stack**, integrating **Clerk authentication** and **subscription-based access**. This platform allows users to generate **articles, blog titles, images, edit images, and get resume reviews** — with separate **Free** and **Premium plans**.
 
+<p align="center">
+  <img alt="Static Badge" src="https://img.shields.io/badge/Expess.js-gray?style=for-the-badge">
+  <img alt="Static Badge" src="https://img.shields.io/badge/Node.js-darkgreen?style=for-the-badge">
+  <img alt="Static Badge" src="https://img.shields.io/badge/React.js-blue?style=for-the-badge">
+  <img alt="Static Badge" src="https://img.shields.io/badge/MongoDB-red?style=for-the-badge">
+  <img alt="Static Badge" src="https://img.shields.io/badge/Tailwind%20CSS-purple?style=for-the-badge">
+  <img alt="Static Badge" src="https://img.shields.io/badge/Gemini%20API-pink?style=for-the-badge">
+  <img alt="Static Badge" src="https://img.shields.io/badge/Cloudinary%20API-blue?style=for-the-badge">
+  <img alt="Static Badge" src="https://img.shields.io/badge/clerk-orange?style=for-the-badge">
+</p>
+
 
 ## 📋 Table of Contents
 - [🚀 Live Demo](#-live-demo)
@@ -118,6 +129,16 @@ npm run dev
 ### App will run at:
 - Frontend → http://localhost:5173
 - Backend  → http://localhost:5000
+
+---
+## 📸 Screenshots
+
+![Screenshot 2024-04-18 091658](https://github.com/Shashank-TS/project-assets-snapshots/blob/main/forge-ai/Screenshot%202025-09-22%20205238.png)
+![Screenshot 2024-04-18 091720](https://github.com/Shashank-TS/project-assets-snapshots/blob/main/forge-ai/Screenshot%202025-09-22%20205207.png)
+![Screenshot 2024-04-18 091720](https://github.com/Shashank-TS/project-assets-snapshots/blob/main/forge-ai/Screenshot%202025-09-22%20205254.png)
+![Screenshot 2024-04-18 091743](https://github.com/Shashank-TS/project-assets-snapshots/blob/main/forge-ai/Screenshot%202025-09-22%20205338.png)
+![Screenshot 2024-04-18 091803](https://github.com/Shashank-TS/project-assets-snapshots/blob/main/forge-ai/Screenshot%202025-09-23%20115808.png)
+![Screenshot 2024-04-18 091658](https://github.com/Shashank-TS/project-assets-snapshots/blob/main/forge-ai/Screenshot%202025-09-23%20115931.png)
 
 ## 📜 License
 This project is licensed under the [MIT License](./LICENSE).
